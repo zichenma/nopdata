@@ -1,0 +1,11 @@
+﻿body{
+    font-size: 17pt;
+    display:flex;
+    align-content:center;
+    margin-top:5%;
+
+}
+
+.y-axis-label , x-axis-label{
+    padding:100px;
+}

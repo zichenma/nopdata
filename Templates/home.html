@@ -1,0 +1,13 @@
+﻿<h1>{{message}}</h1>
+<form  action="">
+    <label>Select a file:</label>
+    <p style="color:brown">Uploading file might take few seconds...</p>
+    <input type="file" name="files" id="fileElem" onclick="checkDataEmpty()" />
+    <button type='button' onclick="saveData()">Save Data</button>
+    <button type='button' onclick="eraseText()">Reset</button>
+    <button type='button' onclick="clearData()">Clear Data</button>
+    <button type='button' onclick="showData()">Show Data</button>
+</form>
+
+<p>File contents: </p>
+<textarea cols="93" rows="10" id="filecontents"></textarea>
